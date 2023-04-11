@@ -1,0 +1,26 @@
+.header  {
+  background-color: rgb(172, 19, 233);
+}
+
+.lesson  {
+  background-color: rgb(179, 137, 196);
+}
+
+.lesson2  {
+  background-color: rgb(221, 194, 231);
+}
+
+#paragraph-1 {
+  color: rgb(42, 13, 226);
+  background-color: rgb(243, 4, 231);
+}
+
+#paragraph-2 {
+  color: rgb(42, 13, 226);
+  background-color: darkorange;
+}
+
+#paragraph-3 {
+    color: white;
+    background-color: darkslateblue;
+}

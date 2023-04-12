@@ -10,8 +10,7 @@
 
 .title {
   color: rgb(49, 49, 235);
-  font-family: fantasy;
-  text-align: center;
+  
 }
 .para {
   font-family: cursive
@@ -22,8 +21,22 @@
 
 .dragon {
   background-color: rgb(15, 127, 224);
-  text-align: center;
+  display: flex;
+align-items: center;
+justify-content: center;
 }
+
+.box-blue {
+  color: white;
+  margin: 20px auto;
+  background-color: blue;
+  height: 220px;
+  width: 420px;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
 #email {
   color: rgb(42, 13, 226);
   background-color: rgb(243, 4, 231);

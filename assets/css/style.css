@@ -1,26 +1,40 @@
 .header  {
   background-color: rgb(172, 19, 233);
+  font-family: fantasy;
+  text-align: center;
 }
 
 .lesson  {
   background-color: rgb(179, 137, 196);
 }
 
+.title {
+  color: rgb(49, 49, 235);
+  font-family: fantasy;
+  text-align: center;
+}
+.para {
+  font-family: cursive
+}
 .lesson2  {
   background-color: rgb(221, 194, 231);
 }
 
-#paragraph-1 {
+.dragon {
+  background-color: rgb(15, 127, 224);
+  text-align: center;
+}
+#email {
   color: rgb(42, 13, 226);
   background-color: rgb(243, 4, 231);
 }
 
-#paragraph-2 {
+#github {
   color: rgb(42, 13, 226);
   background-color: darkorange;
 }
 
-#paragraph-3 {
+#portfolio {
     color: white;
     background-color: darkslateblue;
 }

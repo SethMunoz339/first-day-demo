@@ -10,7 +10,8 @@
 
 .title {
   color: rgb(49, 49, 235);
-  
+  font-family: fantasy;
+  text-align: center;
 }
 .para {
   font-family: cursive
@@ -20,21 +21,74 @@
 }
 
 .dragon {
-  background-color: rgb(15, 127, 224);
-  display: flex;
-align-items: center;
-justify-content: center;
+  background-color: rgb(15, 224, 224);
+  text-align: center;
+  padding: 20px 40px;
 }
 
-.box-blue {
-  color: white;
+.dragon2 {
+  background-color: rgb(15, 127, 224);
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.section2 {
+  width: 600px;
+  height: 600px;
   margin: 20px auto;
-  background-color: blue;
-  height: 220px;
-  width: 420px;
-  display: flex;
-align-items: center;
-justify-content: center;
+  border: 15px solid black;
+}
+
+.image-padding {
+  /* Sets padding on all sides to 20px */
+  padding: 10px;
+  background-color: #2f05ae;
+}
+
+.image-border {
+  /* Sets border on all sides */
+  border: 5px solid darkblue;
+}
+
+.image-margin {
+  /* Sets all sides to 20px */
+  margin: 30px;
+}
+
+#dragon-img1 {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 10px;
+  background-color: #0f0353;
+  border: 5px solid rgb(12, 137, 151);
+}
+
+#dragon-img2 {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 10px;
+  background-color: #13356b;
+  border: 5px solid rgb(66, 143, 153);
+}
+
+#dragon-img3 {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 10px;
+  background-color: #2a2e01;
+  border: 5px solid rgb(111, 83, 5);
+}
+
+#dragon-img4 {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 10px;
+  background-color: #0d194a;
+  border: 5px solid rgb(241, 84, 6);
 }
 
 #email {

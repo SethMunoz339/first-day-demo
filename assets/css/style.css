@@ -1,7 +1,60 @@
-.header  {
-  background-color: rgb(172, 19, 233);
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #5e037f;
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #DDAF94;
+}
+
+footer {
+  position: relative;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #DDAF94;
+  color: #FDF8F5;    
+}
+
+main {
+  padding: 60px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FDF8F5;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+#top {
+  display: inline;
+  padding: 0px 20px;
+  font-family: fantasy;
+  text-decoration: none;
+}
+
+.intro  {
+  background-color: rgb(179, 137, 196);
   font-family: fantasy;
   text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  color: #5e037f;
+  font-family: fantasy;
+  text-align: right;
 }
 
 .lesson  {
@@ -9,7 +62,7 @@
 }
 
 .title {
-  color: rgb(49, 49, 235);
+  color: #5e037f;
   font-family: fantasy;
   text-align: center;
 }
@@ -36,23 +89,27 @@
   width: 600px;
   height: 600px;
   margin: 20px auto;
-  border: 15px solid black;
+  background-color: #DDAF93;
+  border: 5px solid #5e037f;
+  border-radius: 20px;
 }
 
-.image-padding {
-  /* Sets padding on all sides to 20px */
-  padding: 10px;
-  background-color: #2f05ae;
+.section3 {
+  margin: 20px auto;
+  background-color: #DDAF93;
+  border: 5px solid #5e037f;
+  border-radius: 20px;
 }
 
-.image-border {
-  /* Sets border on all sides */
-  border: 5px solid darkblue;
-}
 
-.image-margin {
-  /* Sets all sides to 20px */
+#intro-pic {
+  width: 200px;
+  height: 200px;
   margin: 30px;
+  padding: 10px;
+  background-color: #DDAF93;
+  border: 5px solid #5e037f;
+  border-radius: 20px;
 }
 
 #dragon-img1 {
@@ -62,6 +119,7 @@
   padding: 10px;
   background-color: #0f0353;
   border: 5px solid rgb(12, 137, 151);
+  border-radius: 20px;
 }
 
 #dragon-img2 {
@@ -71,6 +129,7 @@
   padding: 10px;
   background-color: #13356b;
   border: 5px solid rgb(66, 143, 153);
+  border-radius: 20px;
 }
 
 #dragon-img3 {
@@ -80,6 +139,7 @@
   padding: 10px;
   background-color: #2a2e01;
   border: 5px solid rgb(111, 83, 5);
+  border-radius: 20px;
 }
 
 #dragon-img4 {
@@ -88,20 +148,87 @@
   margin: 30px;
   padding: 10px;
   background-color: #0d194a;
-  border: 5px solid rgb(241, 84, 6);
+  border: 5px solid rgb(179, 62, 4);
+  border-radius: 20px;
 }
 
-#email {
-  color: rgb(42, 13, 226);
-  background-color: rgb(243, 4, 231);
+#dragon-img5 {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 10px;
+  background-color: #000000;
+  border: 5px solid rgb(122, 39, 93);
+  border-radius: 20px;
 }
 
-#github {
-  color: rgb(42, 13, 226);
-  background-color: darkorange;
+#dragon-img6 {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 10px;
+  background-color: #4b0ca8;
+  border: 5px solid rgb(233, 129, 226);
+  border-radius: 20px;
 }
 
-#portfolio {
-    color: white;
-    background-color: darkslateblue;
+#dragon-img7 {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 10px;
+  background-color: #270338;
+  border: 5px solid rgb(178, 241, 6);
+  border-radius: 20px;
+}
+
+#dragon-img8 {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 10px;
+  background-color: #0626a7;
+  border: 5px solid rgb(6, 182, 241);
+  border-radius: 20px;
+}
+
+#caption1 {
+  position: relative;
+  bottom: 305px;
+  font-family: fantasy;
+  font-size: larger;
+  color:#5e037f;
+}
+
+form {
+
+  margin: 10px auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #5e037f;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #5e037f;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #5e037f;
+  color: #DDAF93;
 }

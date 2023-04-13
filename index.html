@@ -3,40 +3,41 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Hello HTML!</title>
+    <title>How to code your dragon</title>
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
 
   <body>
-    <div class="container">
-      <header class="header">
+      <header>
+        <nav class="text-right">
+          <ul>
+            <li id="top"> <a href="https://github.com/SethMunoz339">Github</a></li>
+            <li id="top"> <a href="#">Portfolio</a></li>
+            <li id="top"> <a href="mailto:drteeth339@gmail.com">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+      <section class="intro">
         <h1 class="title">Student Bio</h1>
         <h2 class="title">Seth Munoz</h2>
-        <img  src="me-2.JPG" width="200" height="200"/>
-      </header>
-      <br>
+        <img id="intro-pic"  src="me-2.JPG" width="200" height="200"/>
+      </section>
+      
       <section class="lesson">
         
 
         <p class="para">My name is Seth Munoz. I was born in Santa Fe, New Mexico, and through a series of interesting events I now live in Collingswood, New jersey. I am married and I have two children who amaze and inspire me on a daily basis. My first career was as a teacher. I have taught at the same school for 18 years. But at this point in my life I am looking for a new experience. Computers have always held a fascination for me. I have always pondered their inner workings but never had the impetus to study this until now.  </p>
         <p class="para">I also have lots of hobbies. I love to draw. For the most part I draw dragons. I also like to draw portraits of people, but I am not as good at that as I am with dragons. One of the best parts of making art is watching my progress as an artist. I also love games. From an early age I was always interested in the way that game rules are structured and how they interact. I love complex strategy games the most. I also enjoy roleplaying games. My favorite is a game called <strong>Imperial Assault</strong>, which is based on Star Wars. The game that I play the most is <strong>Dungeons and Dragons</strong>. I have been playing this game for twenty years, through many of its various editions. I am often tagged for the role of Dungeon Master; probably because of my experience and outgoing personality.</p>
-        <br>
-       <section class="lesson2">
-        <br>
-         <h2 class="title">Contact Information</h2>
-          <ul>
-          <li id="email"><strong>Email:</strong> <a href="mailto:drteeth339@gmail.com">drteeth339@gmail.com</a></li>
-           <li id="github"><strong>Github:</strong> <a href="https://github.com/SethMunoz339".\>github.com/SethMunoz339</a> </li>
-           <li id="portfolio"><strong>Portfolio:</strong> Coming Soon</li>
-          </ul>
-          <br>
-      </section>
-      <section>
-        <div class="dragon">
-          <img class="image-padding image-border image-margin" src="dragon.JPG" width="400" height="400"/>
-        </div>
-        <div class="dragon2">
-        <img class="image-padding image-border image-margin" src="dragon2.jpeg" width="400" height="200"/>
+        
+       
+      <section Class="section2">
+        <div>
+        <img id=dragon-img5 src="mydragon1.jpg" alt="black dragon"/>
+        <img id=dragon-img6 src="mydragon2.jpg" alt="purple sea dragon"/>
+        <img id=dragon-img7 src="mydragon3.jpg" alt="forest dragon"/>
+        <img id=dragon-img8 src="mydragon4.jpg" alt="ice dragon"/>
+        <figcaption class="text-center" id="caption1">Some dragons I drew!</figcaption>
         </div>
       </section>
     
@@ -46,9 +47,32 @@
         <img id=dragon-img2 src="dragon2.jpeg" alt="ice dragon"/>
         <img id=dragon-img3 src="dragon3.jpg" alt="dragon on a rock"/>
         <img id=dragon-img4 src="dragon4.jpg" alt="mystical dragon"/>
+        <figcaption class="text-center" id="caption1">Some dragons I like!</figcaption>
         </div>
       </section>
-    </div>
+      <section class="section3">
+        <h2 class="title">Contact Me</h2>
+        <form>
+          <ul>
+            <li>
+              <label class="text-right" for="name">Name:</label>
+              <input type="text" id="name" name="user-name">
+            </li>
+            <li>
+              <label class="text-right" for="email">Email:</label>
+              <input type="text" id="email" name="user-email">
+            </li>
+          </ul>
+          <div class="text-center">
+            <button type="submit">SEND</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="text-center">
+      © 2023 How to Code Your Dragon Productions
+    </footer>
+    
   </body>
-
+  
 </html>
